@@ -1,40 +1,59 @@
 <!--index.wxml-->
 <view class="banners">
-  <swiper
-    indicator-dots
-    indicator-color="ivory"
-    indicator-active-color="#d43c33"
-  >
-    <swiper-item>
-      <image src="/static/images/nvsheng.jpg"></image>
-    </swiper-item>
-    <swiper-item>
-      <image src="/static/images/nvsheng.jpg"></image>
-    </swiper-item>
-    <swiper-item>
-      <image src="/static/images/nvsheng.jpg"></image>
-    </swiper-item>
-  </swiper>
-  <view class="navContainer">
+    <swiper
+            indicator-dots
+            indicator-color="ivory"
+            indicator-active-color="#d43c33"
+    >
+        <swiper-item>
+            <image src="https://img.yzcdn.cn/vant/cat.jpeg"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="https://img.yzcdn.cn/vant/cat.jpeg"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="https://img.yzcdn.cn/vant/cat.jpeg"></image>
+        </swiper-item>
+    </swiper>
+</view>
+<view class="navContainer">
     <view class="navItem">
-      <text class="iconfont icon-meirituijian"></text>
-      <text>每日推荐</text>
+        <text class="iconfont icon-meirituijian"></text>
+        <text>每日推荐</text>
     </view>
     <view class="navItem">
-      <text class="iconfont icon-gedan"></text>
-      <text>歌单</text>
+        <text class="iconfont icon-gedan"></text>
+        <text>歌单</text>
     </view>
     <view class="navItem">
-      <text class="iconfont icon-paihangbang"></text>
-      <text>排行榜</text>
+        <text class="iconfont icon-paihangbang"></text>
+        <text>排行榜</text>
     </view>
     <view class="navItem">
-      <text class="iconfont icon-diantai"></text>
-      <text>电台</text>
+        <text class="iconfont icon-diantai"></text>
+        <text>电台</text>
     </view>
     <view class="navItem">
-      <text class="iconfont icon-zhibobofangshexiangjitianxianxianxing"></text>
-      <text>直播</text>
+        <text class="iconfont icon-zhibobofangshexiangjitianxianxianxing"></text>
+        <text>直播</text>
     </view>
-  </view>
+</view>
+
+<view class="recommendContainer">
+    <view class="headerBox">
+        <text>推荐歌单</text>
+        <van-button size="mini" round type="default">更多</van-button>
+    </view>
+    <scroll-view scroll-x enable-flex class="recommendScroll">
+        <view class="recommendScrollItem" wx:for="{{5}}" >
+            <van-image
+                    radius="20rpx"
+                    width="200rpx"
+                    height="200rpx"
+                    src="https://img.yzcdn.cn/vant/cat.jpeg"/>
+            <view class="van-multi-ellipsis--l2">
+                这是一段最多显示两行的文字，后面的内容会省略
+            </view>
+        </view>
+    </scroll-view>
 </view>
