@@ -1,0 +1,4 @@
+<view class="headerBox">
+    <text class="text">{{title}}</text>
+    <van-button size="mini" round type="default">更多</van-button>
+</view>

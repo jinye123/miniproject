@@ -2,16 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="853429e8-359f-43aa-b8ce-434dd7cea4da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NavHeader/NavHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NavHeader/NavHeader.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NavHeader/NavHeader.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NavHeader/NavHeader.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/account/account.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/account/account.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/account/account.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/account/account.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/my/my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/my/my.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/my/my.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/my/my.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/video/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/video/video.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/video/video.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/video/video.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/request.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/app.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,11 +69,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610524111705</updated>
-      <workItem from="1610524113517" duration="5979000" />
+      <workItem from="1610524113517" duration="6114000" />
+      <workItem from="1610586850311" duration="14026000" />
     </task>
+    <task id="LOCAL-00001" summary="recomment">
+      <created>1610531643878</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610531643882</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="recomment" />
+    <option name="LAST_COMMIT_MESSAGE" value="recomment" />
   </component>
 </project>

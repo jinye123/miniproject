@@ -2,10 +2,17 @@
   width: 100%;
   height: 300rps;
 }
-
+.banners .swiperItem{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 10rpx 20rpx;
+}
 .banners image{
   width: 100%;
   height: 100%;
+  border-radius: 20rpx;
 }
 
 .navContainer{
@@ -36,20 +43,9 @@
   font-size: 25rpx;
 }
 
-.recommendContainer .headerBox{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-sizing: border-box;
-  padding: 30rpx;
-}
-.recommendContainer .headerBox text{
-  font-size: 35rpx;
-  font-weight: 500;
-}
-
 .recommendScroll{
   display: flex;
+  height: 300rpx;
   box-sizing: border-box;
   padding-right: 20rpx;
 }
@@ -65,4 +61,55 @@
 }
 .recommendScrollItem view{
  font-size: 26rpx;
+}
+
+.rankingContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.rankingContainer .swiperContainer{
+  height: 500rpx;
+}
+.rankingContainer .swiperContainer .swiperItem{
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 0 20rpx 20rpx;
+}
+.rankingContainer .swiperContainer .swiperItem .itemBgContainer{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background: darksalmon;
+  border-radius: 20rpx;
+  padding: 20rpx;
+}
+
+.rankingContainer .swiperContainer .swiperItem .rankTitle text{
+  font-size: 32rpx;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 100rpx;
+}
+
+.rankingContainer .swiperContainer .swiperItem .rankItem{
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rankingContainer .swiperContainer .swiperItem .rankItem image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 10rpx;
+}
+.rankingContainer .swiperContainer .swiperItem .rankItem .nameBox{
+  font-size: 26rpx;
+  color: #ffffff;
+  font-weight: 500;
 }

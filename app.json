@@ -1,6 +1,9 @@
 {
   "pages":[
-    "pages/index/index"
+    "pages/index/index",
+    "pages/my/my",
+    "pages/account/account",
+    "pages/video/video"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -12,5 +15,27 @@
   "usingComponents": {
     "van-button": "@vant/weapp/button/index",
     "van-image": "@vant/weapp/image/index"
+  },
+  "tabBar": {
+    "selectedColor": "#d43c33",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/static/images/tabs/tab-home.png",
+      "selectedIconPath": "/static/images/tabs/tab-home-current.png"
+    },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/static/images/tabs/tab-my.png",
+        "selectedIconPath": "/static/images/tabs/tab-my-current.png"
+      },
+      {
+        "pagePath": "pages/account/account",
+        "text": "账号",
+        "iconPath": "/static/images/tabs/tab-my.png",
+        "selectedIconPath": "/static/images/tabs/tab-my-current.png"
+      }
+    ]
   }
 }
